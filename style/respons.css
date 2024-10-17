@@ -2,9 +2,10 @@
     .container-banner{
         justify-content: center;
         align-items: center;
+        
     }
     .item-banner img{
-        width: 130px;
+        width: 120px;
         height: 400px;
     }
     #main-itens{
