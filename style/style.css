@@ -22,6 +22,12 @@ body{
     filter: grayscale(1);
     transition: 0.5s ease;
 }
+.item-banner1 img{
+    width: 250px;
+    height: 400px;
+    filter: grayscale(1);
+    transition: 0.5s ease;
+}
 .item-banner img:hover{
     filter: grayscale(0);
 }
