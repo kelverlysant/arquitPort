@@ -1,0 +1,17 @@
+@media (max-width: 750px) {
+    .container-banner{
+        justify-content: center;
+        align-items: center;
+    }
+    .item-banner img{
+        width: 150px;
+        height: 400px;
+    }
+    #main-itens{
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+       border: 1px solid #ccc;
+        
+    }
+}

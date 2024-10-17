@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #FCEFEF;
+}
+
+.container-banner{
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    margin: 30px auto;
+    padding: 15px;
+
+}
+.item-banner img{
+    width: 250px;
+    height: 400px;
+    filter: grayscale(1);
+    transition: 0.5s ease;
+}
+.item-banner img:hover{
+    filter: grayscale(0);
+}
+
+.coment-banner{
+    text-align: center;
+}
+
+.main-container{
+    margin: 50px auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main-itens{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 95px;
+}
+#main-itens img{
+    width: 250px;
+    height: 350px;
+}
+#main-itens p{
+    max-width: 500px;
+    margin: 15px;
+    text-align: center;
+}
