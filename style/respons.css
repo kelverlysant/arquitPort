@@ -18,4 +18,19 @@
     .item-banner1 img{
        display: none;
     }
+   
+}
+@media (max-width: 980px){
+    .apresent{
+        flex-direction: column;
+    }
+    .apresent >img{
+        margin: 0 auto;
+    }
+    .apresent-container > h1{
+        text-align: center;
+    }
+    .apresent-container > h4{
+        text-align: center;
+    }
 }
