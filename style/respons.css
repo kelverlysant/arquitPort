@@ -26,6 +26,7 @@
 @media (max-width: 980px){
     .apresent{
         flex-direction: column;
+        margin: auto;
     }
     .apresent >img{
         margin: 0 auto;
