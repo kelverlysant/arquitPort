@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: #FCEFEF;
+    background: #fff;
     box-sizing: border-box;
 }
 
@@ -163,7 +163,7 @@ body{
     text-align: center;
     padding: 5rem 0 2rem 0;
     margin-top: 90px;
-    background-color: #e2d8d849;
+    background-color: #f0ecec49;
 }
 .contato-container h2{
     font-size: 36px;
@@ -205,3 +205,71 @@ body{
     color: #777777;
     background: #cccccc27;
 }
+footer {
+    width: 100%;
+    margin-top: 150px;
+   
+    
+  }
+  footer .logofooter{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px;
+  
+      h1{
+          font-size: 48px;
+          font-family: 'Courier New', Courier, monospace;
+          color: #000;
+          font-weight: lighter;
+      }
+  }
+  footer .sect-footer{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      max-width: 600px;
+      border-top:  2px solid #ccccccad;
+  }
+  footer .sect-footer .box-footer{
+      max-width: 250px;
+      margin-left: 35px;
+      h3{
+          color: #000;
+          margin-bottom: 10px;
+      }
+      
+  }
+  
+  .sect-footer .box-footer a{
+      
+          display: block;
+          color: #9c9c9c;
+          margin-bottom: 10px;
+          transition: 0.5s;
+  }
+  .sect-footer .box-footer a:hover{
+      color: #000;
+  }
+  
+  .box-footer .redes-footer a{
+          display: inline;
+  }
+  .box-footer .redes-footer button{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      font-size: 1.2em;
+      background-color: transparent;
+      border: 1px solid #ccc;
+      color: #9c9c9c;
+      cursor: pointer;
+      margin-right: 5px;
+      transition: .5s ease;
+  }
+  .box-footer .redes-footer button:hover{
+      background-color: #ccc;
+      color: #000;
+  }
