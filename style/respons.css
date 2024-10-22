@@ -30,13 +30,13 @@
     }
     .apresent >img{
         margin: 0 auto;
-        width: 390px;
+        width: 380px;
     }
-    .apresent-container > h1{
+    .apresent-container > h4, h1{
         text-align: center;
     }
-    .apresent-container > h4{
-        text-align: center;
+    .apresent-container p {
+        font-size: 1.2em;
     }
     #main-itens img:hover{
         transform: none;
@@ -45,9 +45,10 @@
         flex-direction: column;
     }
     .proj-recent-box img{
-        width: 390px;
+        width: 380px;
     }
     .proj-recent-box > p {
+        font-size: 1.2em;
         width: 400px;
         order: 1;
         text-align: center;
