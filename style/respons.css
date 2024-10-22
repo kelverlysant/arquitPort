@@ -22,6 +22,12 @@
     .contato-container textarea{
         width: auto;
     }
+    .contato-container h2{
+        font-size: 25px;
+    }
+    .contato-container p{
+        font-size: 15px;
+    }
 }
 @media (max-width: 980px){
     .apresent{
