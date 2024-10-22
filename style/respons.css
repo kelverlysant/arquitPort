@@ -43,7 +43,7 @@
         flex-direction: column;
     }
     .proj-recent-box img{
-        width: 450px;
+        width: 430px;
     }
     .proj-recent-box > p {
         order: 1;
