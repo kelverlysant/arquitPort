@@ -43,9 +43,10 @@
         flex-direction: column;
     }
     .proj-recent-box img{
-        width: 430px;
+        width: 400px;
     }
     .proj-recent-box > p {
+        width: 450px;
         order: 1;
         text-align: center;
     }
