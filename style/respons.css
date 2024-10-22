@@ -1,4 +1,4 @@
-@media (max-width: 750px) {
+@media (max-width: 778px) {
     .container-banner{
         justify-content: center;
         align-items: center;
@@ -12,13 +12,16 @@
        flex-wrap: wrap;
        align-items: center;
        justify-content: center;
-       border: 1px solid #ccc;
-        
+    }
+    #main-itens p{
+        order: 1;
     }
     .item-banner1 img{
        display: none;
     }
-   
+    .contato-container textarea{
+        width: auto;
+    }
 }
 @media (max-width: 980px){
     .apresent{
@@ -31,6 +34,19 @@
         text-align: center;
     }
     .apresent-container > h4{
+        text-align: center;
+    }
+    #main-itens img:hover{
+        transform: none;
+    }
+    .proj-recent-box{
+        flex-direction: column;
+    }
+    .proj-recent-box img{
+        width: 450px;
+    }
+    .proj-recent-box > p {
+        order: 1;
         text-align: center;
     }
 }
