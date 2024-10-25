@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
-body{
+body, html{
     background: #fff;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
 }
 
 .container-banner{
